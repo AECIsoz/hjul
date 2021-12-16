@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template: repeat(35, 1fr) / repeat(50, 1fr);
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px / 350px;
+    background-color: rgb(111, 231, 127);
+}
+#new-year {
+    grid-area: 3 / 24 / span 3 / span 3;
+    width: 150px;
+    border-radius: 75px;
+}
