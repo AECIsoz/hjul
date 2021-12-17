@@ -3,14 +3,35 @@
     grid-template: repeat(35, 1fr) / repeat(50, 1fr);
     width: 1000px;
     height: 700px;
-    margin: 0 auto;
+    position: relative;
+    margin: 0px auto;
     justify-content: center;
     align-items: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     border-radius: 500px / 350px;
-    background-color: rgb(111, 231, 127);
+    background-image: radial-gradient(gray, rgba(177, 176, 176, 0.5), rgba(238, 235, 235, 0.445));
 }
 #new-year {
-    grid-area: 3 / 24 / span 3 / span 3;
+    grid-area: 1 / 23 / span 8 / span 8;
     width: 150px;
     border-radius: 75px;
+    z-index: 9;
+}
+#sportlov {
+    grid-area: 4 / 36 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#easter {
+    grid-area: 14 / 43 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
 }
