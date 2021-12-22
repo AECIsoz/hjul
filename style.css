@@ -35,3 +35,33 @@
     border-radius: 75px;
     z-index: 9;
 }
+#matrundan {
+    grid-area: 23 / 40 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#osterlen-lyser {
+    grid-area: 12 / 1 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#kiviksmarknad {
+    grid-area: 29 / 20 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#appelveckor {
+    grid-area: 22 / 4 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#kivikskortet {
+    grid-area: 7 / 3 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
