@@ -48,7 +48,7 @@
     z-index: 9;
 }
 #kiviksmarknad {
-    grid-area: 29 / 20 / span 8 / span 8;
+    grid-area: 28 / 21 / span 8 / span 8;
     width: 150px;
     border-radius: 75px;
     z-index: 9;
@@ -60,7 +60,19 @@
     z-index: 9;
 }
 #kivikskortet {
-    grid-area: 7 / 3 / span 8 / span 8;
+    grid-area: 4 / 8 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#glada-barn {
+    grid-area: 27 / 32 / span 8 / span 8;
+    width: 150px;
+    border-radius: 75px;
+    z-index: 9;
+}
+#skordetid {
+    grid-area: 26 / 12 / span 8 / span 8;
     width: 150px;
     border-radius: 75px;
     z-index: 9;
