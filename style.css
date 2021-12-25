@@ -20,43 +20,92 @@ body {
     border-radius: 320px / 320px;
     background-image: radial-gradient(gray, rgba(177, 176, 176, 0.5), rgba(238, 235, 235, 0.445));
 }
+h1 {
+    grid-area: 18 / 14 / span 4 / span 14;
+    z-index: 9;
+    font-family: 'Cambria', serif;
+    font-size: 3em;
+    text-align: center;
+}
 .wheel-image {
     width: 120px;
     border-radius: 60px;
+    z-index: 8;
+    transition: transform 1s;
+}
+.text {
+    font-size: 0.5em;
+    color: rgba(255, 255, 255, 0.548);
+    text-align: center;
     z-index: 9;
     transition: transform 1s;
+    padding: 5px;
 }
 .wheel-image:hover {
     transform: scale(1.5);
 }
-
+.text:hover {
+    transform: scale(3);
+    color: white;
+    background-color: rgba(128, 128, 128, 0.548);
+}
 #new-year {
     grid-area: 1 / 18 / span 8 / span 8;
+}
+#new-year-text {
+    grid-area: 1 / 20 / span 8 / span 4;
 }
 #sportlov {
     grid-area: 4 / 28 / span 8 / span 8;
 }
+#sportlov-text {
+    grid-area: 4 / 30 / span 8 / span 4;
+}
 #easter {
     grid-area: 13 / 32 / span 8 / span 8;
+}
+#easter-text {
+    grid-area: 13 / 34 / span 8 / span 4;
 }
 #matrundan {
     grid-area: 22 / 32 / span 8 / span 8;
 }
+#matrundan-text {
+    grid-area: 22 / 34 / span 8 / span 4;
+}
 #osterlen-lyser {
     grid-area: 12 / 1 / span 8 / span 8;
+}
+#österlen-lyser-text {
+    grid-area: 12 / 3 / span 8 / span 4;
 }
 #kiviksmarknad {
     grid-area: 33 / 18 / span 8 / span 8;
 }
+#kiviksmarknad-text {
+    grid-area: 33 / 20 / span 8 / span 4;
+}
 #appelveckor {
     grid-area: 22 / 2 / span 8 / span 8;
+}
+#appelveckor-text {
+    grid-area: 22 / 4 / span 8 / span 4;
 }
 #kivikskortet {
     grid-area: 4 / 8 / span 8 / span 8;
 }
+#kivikskortet-text {
+    grid-area: 4 / 10 / span 8 / span 4;
+}
 #glada-barn {
     grid-area: 30 / 27 / span 8 / span 8;
 }
+#glada-barn-text {
+    grid-area: 30 / 29 / span 8 / span 4;
+}
 #skordetid {
     grid-area: 30 / 8 / span 8 / span 8;
+}
+#skordetid-text {
+    grid-area: 30 / 10 / span 8 / span 4;
 }
