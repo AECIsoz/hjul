@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    background-color: rgb(236, 233, 233);
 }
 .grid-container {
     display: grid;
@@ -18,7 +19,10 @@ body {
     top: 30px;
     left: 30px;
     border-radius: 320px / 320px;
-    background-image: radial-gradient(gray, rgba(177, 176, 176, 0.5), rgba(238, 235, 235, 0.445));
+    /*background-image: radial-gradient(gray, rgba(177, 176, 176, 0.5), rgba(238, 235, 235, 0.445));*/
+    background-image: url(./resources/6835E8AD-BCF9-49DA-89BD-43B86CCA40E5.JPG);
+    background-size: cover;
+    box-shadow: 0 0 100px 100px rgb(236, 233, 233) inset;
 }
 h1 {
     grid-area: 18 / 14 / span 4 / span 14;
@@ -26,6 +30,7 @@ h1 {
     font-family: 'Cambria', serif;
     font-size: 3em;
     text-align: center;
+    color: white;
 }
 .wheel-image {
     width: 120px;
@@ -109,4 +114,16 @@ h1 {
 }
 #skordetid-text {
     grid-area: 30 / 10 / span 8 / span 4;
+}
+
+/* media queries */
+
+/* ipad size */
+@media only screen and (max-width: 1024px) {
+    .text {
+        display: none;
+    }
+    .wheel-image:active {
+        transform: scale(1.5);
+    }
 }
