@@ -83,7 +83,7 @@ h1 {
 #osterlen-lyser {
     grid-area: 12 / 1 / span 8 / span 8;
 }
-#österlen-lyser-text {
+#osterlen-lyser-text {
     grid-area: 12 / 3 / span 8 / span 4;
 }
 #kiviksmarknad {
@@ -121,10 +121,21 @@ h1 {
 
 /* ipad size */
 @media only screen and (max-width: 1024px) {
-    .text {
-        display: none;
-    }
     .wheel-image:active {
         transform: scale(1.5);
+    }
+    .grid-container {
+        width: 500px;
+        height: 500px;
+    }
+    .wheel-image {
+        width: 90px;
+        border-radius: 45px;
+        z-index: 8;
+        transition: transform 1s;
+    }
+    .text {
+        font-size: 0.4em;
+        padding: 3px;
     }
 }
