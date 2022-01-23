@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $('#new-year').on('mousemove', () => {
-        $('#new-year-text').show();
+        $('#new-year-text').toggle();
     }),
     $('#sportlov').on('mousemove', () => {
-        $('#sportlov-text').show();
+        $('#sportlov-text').toggle();
     }),
     $('#easter').on('mousemove', () => {
-        $('#easter-text').show();
+        $('#easter-text').toggle();
     }),
     $('#matrundan').on('mousemove', () => {
         $('#matrundan-text').show();
