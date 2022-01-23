@@ -18,8 +18,8 @@ body {
     position: absolute;
     top: 30px;
     left: 30px;
-    border-radius: 320px / 320px;
-    /*background-image: radial-gradient(gray, rgba(177, 176, 176, 0.5), rgba(238, 235, 235, 0.445));*/
+    /*border-radius: 320px / 320px;
+    background-image: radial-gradient(gray, rgba(177, 176, 176, 0.5), rgba(238, 235, 235, 0.445));*/
     background-image: url(./resources/6835E8AD-BCF9-49DA-89BD-43B86CCA40E5.JPG);
     background-size: cover;
     box-shadow: 0 0 100px 100px rgb(236, 233, 233) inset;
@@ -39,6 +39,7 @@ h1 {
     transition: transform 1s;
 }
 .text {
+    display: none;
     font-size: 0.6em;
     color: rgba(255, 255, 255, 0.548);
     text-align: center;
