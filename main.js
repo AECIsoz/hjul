@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('#new-year').on('mousemove', () => {
+    $('#new-year').on('mousemove' || 'tap', () => {
         $('#new-year-text').toggle();
     }),
-    $('#sportlov').on('mousemove', () => {
+    $('#sportlov').on('mousemove' || 'tap', () => {
         $('#sportlov-text').toggle();
     }),
     $('#easter').on('mousemove', () => {
