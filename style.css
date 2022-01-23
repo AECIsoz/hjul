@@ -78,7 +78,7 @@ h1 {
     grid-area: 22 / 32 / span 8 / span 8;
 }
 #matrundan-text {
-    grid-area: 22 / 34 / span 8 / span 5;
+    grid-area: 22 / 33 / span 8 / span 6;
 }
 #osterlen-lyser {
     grid-area: 12 / 1 / span 8 / span 8;
@@ -141,7 +141,7 @@ h1 {
         transition: transform 1s;
     }
     .text {
-        font-size: 1em;
+        font-size: 0.5em;
         padding: 3px;
         color: white;
         font-weight: 500;

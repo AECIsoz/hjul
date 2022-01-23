@@ -5,31 +5,31 @@ $(document).ready(function() {
     $('#sportlov').on('mousemove' || 'tap', () => {
         $('#sportlov-text').toggle();
     }),
-    $('#easter').on('mousemove', () => {
+    $('#easter').on('mousemove' || 'tap', () => {
         $('#easter-text').toggle();
     }),
-    $('#matrundan').on('mousemove', () => {
-        $('#matrundan-text').show();
+    $('#matrundan').on('mousemove' || 'tap', () => {
+        $('#matrundan-text').toggle();
     }),
-    $('#osterlen-lyser').on('mousemove', () => {
-        $('#osterlen-lyser-text').show();
+    $('#osterlen-lyser').on('mousemove' || 'tap', () => {
+        $('#osterlen-lyser-text').toggle();
     }),
-    $('#kiviksmarknad').on('mousemove', () => {
-        $('#kiviksmarknad-text').show();
+    $('#kiviksmarknad').on('mousemove' || 'tap', () => {
+        $('#kiviksmarknad-text').toggle();
     }),
-    $('#new-year').on('mousemove', () => {
-        $('#new-year-text').show();
+    $('#new-year').on('mousemove' || 'tap', () => {
+        $('#new-year-text').toggle();
     }),
-    $('#appelveckor').on('mousemove', () => {
-        $('#appelveckor-text').show();
+    $('#appelveckor').on('mousemove'|| 'tap', () => {
+        $('#appelveckor-text').toggle();
     }),
-    $('#glada-barn').on('mousemove', () => {
-        $('#glada-barn-text').show();
+    $('#glada-barn').on('mousemove' || 'tap', () => {
+        $('#glada-barn-text').toggle();
     }),
-    $('#kivikskortet').on('mousemove', () => {
-        $('#kivikskortet-text').show();
+    $('#kivikskortet').on('mousemove' || 'tap', () => {
+        $('#kivikskortet-text').toggle();
     }),
-    $('#skordetid').on('mousemove', () => {
-        $('#skordetid-text').show();
+    $('#skordetid').on('mousemove' || 'tap', () => {
+        $('#skordetid-text').toggle();
     })       
 })
